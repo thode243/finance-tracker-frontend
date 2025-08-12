@@ -5,10 +5,10 @@ function App() {
   const [data2, setData2] = useState([]);
 
   const sheetUrl1 =
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vTilANX1979hvDvNATGeeMzC6tQqI1HaBgDH-EBCcqbPzwsu4XXQnvlE5NTuB8LRL5wqEs5C_CYkmG5/pub?gid=644891261&single=true&output=csv";
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQNwJgvnubofx1e9BU_P4mBeOk35UyL6SEgNAAAfe79rJMJg3KZrgYDZAzTe9fD5GIbxW1SmMp-2342/pub?gid=387463255&single=true&output=csv";
 
   const sheetUrl2 =
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQNwJgvnubofx1e9BU_P4mBeOk35UyL6SEgNAAAfe79rJMJg3KZrgYDZAzTe9fD5GIbxW1SmMp-2342/pub?gid=387463255&single=true&output=csv";
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vTilANX1979hvDvNATGeeMzC6tQqI1HaBgDH-EBCcqbPzwsu4XXQnvlE5NTuB8LRL5wqEs5C_CYkmG5/pub?gid=644891261&single=true&output=csv";
 
   useEffect(() => {
     const fetchData = (url, setData) => {
